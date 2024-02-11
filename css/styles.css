@@ -1,0 +1,88 @@
+body{
+  font-family: Roboto;
+  color:#2E2F42;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  cursor: pointer;
+  background-color: #4D5AE5;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.logo{
+  font-family: Raleway;
+  font-size: 18px;
+  color:#F4F4FD;
+}
+
+.logo-color{
+  color: #4D5AE5;
+}
+
+.contact{
+  color: #434455;
+}
+
+.main-hed{
+  color: #FFFFFF;
+  font-size: 56px;
+}
+
+.hero{
+  background-color: #2E2F42;
+}
+
+.first-info{
+  font-size: 20px;
+}
+
+.text-info{
+  color: #434455;
+}
+
+.team{
+  background-color: #F4F4FD;
+}
+
+.team-main{
+  font-size: 36px;
+}
+
+.team-info{
+  background-color: #ffffff;
+}
+
+.team-namr{
+  font-size: 20px;
+}
+
+.portfolio-head{
+  font-size: 36px;
+}
+
+.portfolio-info{
+  font-size: 20px;
+}
+
+.portfolio-text{
+  color:#434455;
+}
+
+.foot{
+  background-color: #2E2F42;
+}
+
+.foot-info{
+  color:#F4F4FD;
+}
