@@ -1,6 +1,7 @@
 body{
-  font-family: Roboto;
-  color:#2E2F42;
+  font-family: "Roboto", sans-serif;
+  color:#434455;
+  background-color: #FFFFFF;
 }
 
 ul{
@@ -14,29 +15,75 @@ a{
 .btn{
   cursor: pointer;
   background-color: #4D5AE5;
-  width: 169px;
-  height: 56px;
   border-radius: 4px;
   color: #FFFFFF;
+  font-size: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.btn:hover{
+  background-color: #404BBF;
+}
+
+.btn:active{
+  background-color: #404BBF;
 }
 
 .logo{
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  color:#F4F4FD;
+  color:#4d5ae5;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-color{
-  color: #4D5AE5;
+  color: #2e2f42;
+}
+
+.main-page{
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.main-page:hover{
+  color: #404bbf;
+}
+
+.main-padge:active{
+  color: #404bbf;
+}
+
+.adres{
+  font-style: normal;
 }
 
 .contact{
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover{
+  color: #404bbf;
+}
+
+.contact:active{
+  color: #404bbf;
 }
 
 .main-hed{
   color: #FFFFFF;
   font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero{
@@ -45,10 +92,15 @@ a{
 
 .first-info{
   font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .text-info{
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .team{
@@ -57,26 +109,49 @@ a{
 
 .team-main{
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-info{
   background-color: #ffffff;
 }
 
-.team-namr{
+.team-name{
   font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-profy{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .portfolio-head{
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-info{
   font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-text{
   color:#434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .foot{
