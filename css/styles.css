@@ -45,6 +45,10 @@ a{
   color: #2e2f42;
 }
 
+.logo-footer{
+  color: #f4f4fd;
+}
+
 .main-page{
   font-weight: 500;
   line-height: 1.5;
@@ -113,6 +117,7 @@ a{
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-info{
@@ -160,4 +165,6 @@ a{
 
 .foot-info{
   color:#F4F4FD;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
