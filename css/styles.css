@@ -335,6 +335,11 @@ body {
 /* Footer */
 
 .footer-body{
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: baseline;
 }
