@@ -38,7 +38,6 @@ input::placeholder{
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -539,21 +538,19 @@ input::placeholder{
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2E2F42;
 }
 
 .modal-btn:hover,
 .modal-btn:focus{
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .modal-exit{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #2E2F42
-}
-
-.modal-btn:hover, .modal-btn:focus + .modal-exit{
-  fill: #ffffff;
+  
 }
 
 .modal-text{
@@ -657,7 +654,7 @@ input::placeholder{
   fill: transparent;
 }
 
-.visually-hidden:checked + .privacy{
+.visually-hidden:checked + .user-radio .privacy{
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
@@ -665,6 +662,7 @@ input::placeholder{
 
 .privacy-link{
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .modal-btn-cofig{
@@ -681,4 +679,5 @@ input::placeholder{
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
